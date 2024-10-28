@@ -1,0 +1,54 @@
+.ant-btn {
+  @apply h-auto;
+}
+.ant-btn-primary {
+  @apply bg-primary;
+}
+.ant-skeleton-title {
+  height: 100% !important;
+}
+.ant-input {
+  font-size: 16px !important;
+  @apply h-full;
+}
+.ant-form-item-explain-error {
+  @apply text-xs;
+}
+.ant-drawer-header-title {
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+.ant-notification-notice-message {
+  margin: 0 0 0 32px !important;
+}
+.ant-select-selector {
+  border-radius: 0 !important;
+  padding: 0 24px !important;
+}
+.ant-select-item-option-selected {
+  background: rgba(36, 36, 36, 0.1) !important;
+}
+.ant-input-number-handler-wrap {
+  display: none !important;
+}
+.ant-form-item-control-input  {
+  min-height: auto !important;
+}
+.ant-input-status-error {
+  border-color: #f14534 !important;
+}
+.ant-input-number-status-error {
+  border-color: #f14534 !important;
+}
+.ant-input-number-input {
+  padding: 0 !important;
+}
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.react-datepicker-popper {
+  z-index: 100 !important;
+}
+.ant-table-cell {
+  padding: 4px 16px !important;
+}

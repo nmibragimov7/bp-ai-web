@@ -1,0 +1,16 @@
+.Field {
+    @apply h-12 rounded-none px-6;
+    &Wrap {
+        @apply relative;
+    }
+    &:focus + .Label,
+    & + .Label.ActiveInput {
+        color: #242424;
+        @apply -top-2.5 right-auto bottom-auto left-2.5 bg-white text-xs px-3.5;
+    }
+}
+.Label {
+    z-index: 2;
+    color: #dbdbdb;
+    @apply flex items-center absolute transition-all duration-300 left-0 top-0 right-0 bottom-0 px-6 text-base whitespace-nowrap overflow-hidden;
+}
